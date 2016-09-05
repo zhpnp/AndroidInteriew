@@ -1,2 +1,3 @@
 # AndroidInteriew
+该项目主要用于技术交流分享使用，项目结合了常见的一些Android面试试题，笔记以及简单的面试管理功能
 该项目使用了开源项目SlidingMenu,运行时需要导入该开源项目作为本项目的library使用
