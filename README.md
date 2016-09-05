@@ -1,1 +1,2 @@
 # AndroidInteriew
+该项目使用了开源项目SlidingMenu,运行时需要导入该开源项目作为本项目的library使用
