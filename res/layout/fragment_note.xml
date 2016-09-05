@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical" >
+    
+    <ListView 
+        android:id="@+id/lv_note"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="visible"
+        ></ListView>
+    
+    <TextView 
+        android:id="@+id/tv_no_note"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:text="当前没有笔记"
+        android:gravity="center"
+        android:textColor="#9999"
+        android:textSize="20sp"
+        />
+    
+    <ImageButton 
+        android:id="@+id/ibtn_note_add"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/add"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/hello_world"
+        android:background="#0000"
+        />
+
+</LinearLayout>

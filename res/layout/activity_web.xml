@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WebActivity" >
+
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#222" >
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="#0000"
+            android:contentDescription="@string/hello_world"
+            android:padding="5dp"
+            android:onClick="back"
+            android:scaleType="fitXY"
+            android:src="@drawable/ibtn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Android进阶"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    
+     <ProgressBar 
+         android:id="@+id/pb_web"
+         android:layout_width="match_parent"
+         android:layout_height="4dp"
+         style="@android:style/Widget.ProgressBar.Horizontal"
+         android:visibility="visible"
+         />
+     <WebView 
+         android:id="@+id/wv"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         />
+    
+</LinearLayout>

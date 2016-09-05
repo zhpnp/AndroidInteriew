@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:contentDescription="@string/hello_world"
+        android:src="@drawable/me"
+        android:scaleType="fitXY"
+        />
+ <!--    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="功能模块介绍："
+        android:textSize="20sp"
+        />
+     <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="\u3000\u3000试题：分为java基础，Android基础和Android进阶三部分"
+        android:textSize="16sp"
+        />
+      <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="\u3000\u3000笔记：用于记录面试过程汇总遇到的一些问题跟心得的记录"
+        android:textSize="16sp"
+        />
+       <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="\u3000\u3000面试：用于面试的管理，具备定时提醒功能"
+        android:textSize="16sp"
+        /> -->
+        <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="\u3000\u3000本应用仅作为学习分享用，应用中所涉及的试题均来源于网上，所有博客均为转载，若有侵权请及时联系进行删除。"
+        android:textSize="16sp"
+        />
+        <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="\u3000\u3000联系方式：503421548@qq.com"
+        android:textSize="16sp"
+        />
+
+</LinearLayout>

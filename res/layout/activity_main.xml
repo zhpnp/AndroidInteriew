@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#222" >
+
+        <ImageButton
+            android:id="@+id/ibtn_menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="#0000"
+            android:contentDescription="@string/hello_world"
+            android:padding="7dp"
+            android:scaleType="fitXY"
+            android:onClick="menu"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/tv_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Android面试宝典"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <com.zhp.viewpager.ParentViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </com.zhp.viewpager.ParentViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ibtn_item"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="#0000"
+                android:contentDescription="@string/hello_world"
+                android:padding="3dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ibtn_item" />
+
+            <TextView
+                android:id="@+id/tv_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="试题"
+                android:textColor="#9999"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ibtn_note"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="#0000"
+                android:contentDescription="@string/hello_world"
+                android:padding="3dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ibtn_note" />
+
+            <TextView
+                android:id="@+id/tv_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="笔记"
+                android:textColor="#9999"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ibtn_interiew"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="#0000"
+                android:contentDescription="@string/hello_world"
+                android:padding="3dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ibtn_interiew" />
+
+            <TextView
+                android:id="@+id/tv_interiew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="面试"
+                android:textColor="#9999"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ibtn_about"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="#0000"
+                android:contentDescription="@string/hello_world"
+                android:padding="3dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ibtn_about" />
+
+            <TextView
+                android:id="@+id/tv_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关于"
+                android:textColor="#9999"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
